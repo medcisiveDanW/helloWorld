@@ -19,6 +19,12 @@ public interface Action extends Advisory_Component {
     // Slot description
     String getDescription();
 
+    /*
+     * This is the second change that has been introduced
+     */
+    boolean testHasASubclass();
+
+
     boolean hasDescription();
 
     void setDescription(String newDescription);
